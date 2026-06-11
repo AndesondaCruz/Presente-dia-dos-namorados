@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para Maria Eduarda ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="envelope-screen">  
+    <div id="envelope">
+      <div class="env-flap"></div>
+      <div class="env-body">
+        <div class="env-letter">
+          <p class="env-para">Para</p>
+          <p class="env-nome">Maria Eduarda</p>
+          <p class="env-sub">com todo o meu amor ♡</p>
+          <button id="open-btn" onclick="abrirCarta()">Abrir carta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section class="hero">
+  <canvas id="petals"></canvas>
+  <p class="hero-eyebrow">12 de junho de 2025 · dia dos namorados</p>
+  <h1>Para <em>Maria Eduarda</em>,<br>meu amor</h1>
+  <p class="hero-sub">tudo fica melhor com você</p>
+
+  <div class="counter-wrap">
+    <div class="counter-unit">
+      <span class="counter-num" id="cnt-d">000</span>
+      <span class="counter-label">dias</span>
+    </div>
+    <div class="counter-unit">
+      <span class="counter-num" id="cnt-h">00</span>
+      <span class="counter-label">horas</span>
+    </div>
+    <div class="counter-unit">
+      <span class="counter-num" id="cnt-m">00</span>
+      <span class="counter-label">min</span>
+    </div>
+    <div class="counter-unit">
+      <span class="counter-num" id="cnt-s">00</span>
+      <span class="counter-label">seg</span>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>role para baixo</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ MENSAGEM ═══════════════════════════ -->
+<section id="mensagem">
+  <div class="section-header">
+    <h2>Uma carta para você</h2>
+    <p>do fundo do meu coração</p>
+  </div>
+  <span class="ornament">♡ ♡ ♡</span>
+  <div class="message-card">
+    <span id="tw-text"></span><span id="cursor"></span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ GALERIA ═══════════════════════════ -->
+<section id="galeria" style="background: linear-gradient(var(--rose-bg), #fff0f4); border-radius: 32px; max-width: 100%; padding: 80px 24px;">
+  <div style="max-width: 700px; margin: 0 auto;">
+    <div class="section-header">
+      <h2>Nossa galeria</h2>
+      <p>os momentos que guardarei pra sempre</p>
+    </div>
+    <span class="ornament">♡ ♡ ♡</span>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="images/foto1.jpg" alt="1º encontro">
+          <div class="caption">1º encontro</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/foto2.jpg" alt="nossa viagem">
+          <div class="caption">nossa viagem</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/foto3.jpg" alt="dia especial">
+          <div class="caption">dia especial</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/foto4.jpg" alt="aventuras">
+          <div class="caption">aventuras</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/foto5.jpg" alt="momentos">
+          <div class="caption">momentos</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/foto6.jpg" alt="nosso lugar">
+          <div class="caption">nosso lugar</div>
+</section>
+
+<!-- ═══════════════════════════════ TIMELINE ═══════════════════════════ -->
+<section id="historia">
+  <div class="section-header">
+    <h2>Nossa história</h2>
+    <p>cada capítulo mais bonito que o anterior</p>
+  </div>
+  <span class="ornament">♡ ♡ ♡</span>
+
+  <!--
+    PERSONALIZE A TIMELINE:
+    Troque as datas e textos pelos momentos reais de vocês!
+  -->
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot">♡</div>
+      <p class="tl-date">15 de novembro de 2024</p>
+      <p class="tl-title">O começo de tudo</p>
+      <p class="tl-desc">O dia em que a minha vida ganhou um novo e lindo significado. Tudo mudou a partir daí.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">♡</div>
+      <p class="tl-date">data aqui</p>
+      <p class="tl-title">Um momento que não esqueço</p>
+      <p class="tl-desc">Descreva aqui um momento especial de vocês — pode ser a primeira viagem, o primeiro beijo, qualquer memória que marque.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">♡</div>
+      <p class="tl-date">data aqui</p>
+      <p class="tl-title">Outro capítulo bonito</p>
+      <p class="tl-desc">Adicione quantos momentos quiser. Cada memória vale a pena guardar aqui.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot">♡</div>
+      <p class="tl-date">12 de junho de 2025</p>
+      <p class="tl-title">Feliz Dia dos Namorados, Duda</p>
+      <p class="tl-desc">E que venham muitos mais dias, meses e anos ao seu lado. Te amo muito.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════ MÚSICA ════════════════════════════ -->
+<section id="musica" style="background: linear-gradient(#fff0f4, var(--rose-bg)); border-radius: 32px; max-width: 100%; padding: 80px 24px;">
+  <div style="max-width: 700px; margin: 0 auto;">
+    <div class="section-header">
+      <h2>Nossa música</h2>
+      <p>a trilha sonora de nós dois</p>
+    </div>
+    <span class="ornament">♡ ♡ ♡</span>
+
+    <div class="music-card">
+      <button class="play-btn" id="play-btn" onclick="toggleMusic()" aria-label="Tocar ou pausar">
+        <svg id="play-ico" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+      </button>
+      <div class="music-info">
+        <p class="music-title">Estrela da Manhã</p>
+        <p class="music-artist">Tarcísio do Acordeon</p>
+      </div>
+      <div class="waves paused" id="waves">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <span class="footer-heart">♥</span>
+  <h2>Te amo, Maria Eduarda</h2>
+  <p>Feliz Dia dos Namorados · 12 de junho de 2025</p>
+</footer>
+
+<audio id="player" loop>
+  <source src="audio/estrela-da-manha.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
