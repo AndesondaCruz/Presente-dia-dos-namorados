@@ -34,11 +34,12 @@ const START = new Date('2024-11-15T00:00:00');
   // ── Typewriter ───────────────────────────────────────────────────────
   // PERSONALIZE: troque o texto abaixo pela mensagem que você quer enviar!
   const mensagem =
-    "Maria Eduarda, desde o dia 15 de novembro você transformou o meu mundo. " +
-    "Você tem esse jeito único de tornar tudo mais leve, mais bonito, mais cheio de sentido. " +
-    "Cada risada sua, cada mensagem de bom dia, cada momento simples ao seu lado — eu guardo tudo. " +
-    "Você é minha estrela da manhã: aparece e ilumina tudo ao redor. " +
-    "Feliz Dia dos Namorados, meu amor. Obrigado por existir na minha vida. ♡";
+  "Meu amor, hoje é um dia muito especial, pois posso me lembrar do dia em que decidi que seria com você a pessoa com quem eu iria me casar, formar uma família, servir a Deus e passar o resto dos meus dias. " +
+  "Obrigado por ser essa namorada incrível, amiga e parceira; obrigado por estar sempre ao meu lado e pelos puxões de orelha (que são muitos, mas sempre merecidos). " +
+  "Saiba que esse seu jeito único de tornar tudo mais leve, mais bonito e mais cheio de sentido é o que sempre arranca um sorriso bobo meu. " +
+  "Cada risada sua, cada mensagem de bom dia, cada choro, cada alegria, cada momento simples ao seu lado — eu guardo tudo. " +
+  "E, assim como diz a nossa música, você é a minha estrela da manhã: aquela que ilumina tudo ao redor. " +
+  "Feliz Dia dos Namorados, meu amor. Obrigado por existir na minha vida. Eu te amo muito. ♡";
 
   let i = 0;
   const el = document.getElementById('tw-text');
